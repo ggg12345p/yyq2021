@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<style>
+ 
+#header {
+    background-color:YellowGreen;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+   
+    background-color:#eeeeee;
+    float:left;
+    padding:5px;	      
+}
+ 	 
+#section {
+    
+    float:left;
+    padding: 5px; 	 
+}
+#footer {
+    background-color:YellowGreen;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<h1>扫雷</h1>
+</div>
+
+<div id="nav">
+<div class="box"> 
+
+<button style="color:#8A2BE2;flex-basis:auto;flex-grow:1">简单</button> 
+
+<button style="color:#0000FF;flex-basis:auto;flex-grow:1">中等</button> 
+
+<button style="color:#FF0000;flex-basis:auto;flex-grow:1">困难</button>
+
+<button style="color: #000;;flex-basis:auto;flex-grow:1">重新开始</button> 
+
+</div> 
+
+<div class="bo1x"> 
+
+</div> 
+
+
+<div id="section">
+<h2>扫雷游戏规则</h2>
+<p>
+刚开始需要碰运气，只要点开一个区域，就可以正式开始了尽快找到所有不是地雷的格子，数字说明旁边的8个位置中雷个数，如果挖开的是地雷，则会输掉游戏。
+</p>
+
+</div>
+
+
+<div id="footer">
+<p>你准备好了吗?加油呀!!<p>
+</div>
+
+    
+    
+    
+    <div class="game-pane">
+      <table id="board">
+
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
